@@ -63,3 +63,6 @@ if start_button:
 
 # Reiniciar historial
 if reset_button:
+    st.session_state['experiment_no'] = 0
+    st.session_state['df_experiment_results'] = pd.DataFrame(columns=['no', 'iteraciones', 'media'])
+    st.success("✅ Historial reiniciado correctamente.")
