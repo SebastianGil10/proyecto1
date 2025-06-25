@@ -74,7 +74,7 @@ if reset_button:
     st.session_state['df_experiment_results'] = pd.DataFrame(
         columns=['no', 'iteraciones', 'media']
     )
-    st.success("✅ Historial reiniciado correctamente.")
+    st.success("✅ Historial reiniciado correctamente..")
 
 # Mostrar resultados
 st.write(st.session_state['df_experiment_results'])
